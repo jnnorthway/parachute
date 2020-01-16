@@ -1,5 +1,6 @@
 <manifest>
-<remote name="github" fetch="https://github.com/jnnorthway"/>
-<default revision="refs/heads/master" remote="github" sync-j="4"/>
-<project name="parachute-android" remote="github" path="android"/>
+  <remote name="github" fetch="https://github.com/jnnorthway"/>
+  <default revision="refs/heads/master" remote="github" sync-j="4"/>
+  <project name="parachute-python" remote="github" path="python"/>
+  <project name="parachute-android" remote="github" path="android"/>
 </manifest>
