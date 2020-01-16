@@ -1,6 +1,6 @@
 <manifest>
   <remote name="origin" fetch="https://review.gerrithub.io/jnnorthway/" review="review.gerrithub.io/"/>
-  <default revision="refs/heads/master" remote="github" sync-j="4"/>
-  <project name="parachute-python" remote="github" path="python"/>
-  <project name="parachute-android" remote="github" path="android"/>
+  <default revision="refs/heads/master" remote="origin" sync-j="4"/>
+  <project name="parachute-python" remote="origin" path="python"/>
+  <project name="parachute-android" remote="origin" path="android"/>
 </manifest>
