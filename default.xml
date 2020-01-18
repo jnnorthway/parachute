@@ -1,5 +1,5 @@
 <manifest>
-  <remote name="origin" fetch="https://review.gerrithub.io/jnnorthway/" review="review.gerrithub.io/"/>
+  <remote name="origin" fetch="ssh://jnnorthway@review.gerrithub.io:29418/jnnorthway/" review="ssh://jnorthway@review.gerrithub.io:29418/jnnorthway/"/>
   <default revision="refs/heads/master" remote="origin" sync-j="4"/>
   <project name="parachute-python" remote="origin" path="python"/>
   <project name="parachute-android" remote="origin" path="android"/>
